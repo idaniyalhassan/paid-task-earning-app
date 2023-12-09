@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PaidTask" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimaryDark">
+            @color/primary
+        </item>
+    </style>
+
+    <style name="Theme.PaidTask" parent="Base.Theme.PaidTask" />
+</resources>

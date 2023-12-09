@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@drawable/welcom"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardElevation="10dp"
+        android:layout_gravity="center_horizontal"
+        app:cardCornerRadius="15dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="-75dp"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/logopaid"
+            android:layout_margin="15dp"
+            />
+    </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start earning today by"
+            android:textAlignment="center"
+            android:fontFamily="@font/montserrat_medium"
+            android:textColor="@color/darkgrey"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="doing simple tasks."
+            android:textAlignment="center"
+            android:fontFamily="@font/montserrat_medium"
+            android:textColor="@color/darkgrey"
+            android:textStyle="italic"/>
+        <Button
+            android:id="@+id/loginpage"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            app:cornerRadius= "10dp"
+            android:backgroundTint="@color/primary"
+            android:text="LOG IN"
+            android:textSize="17dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/montserrat_medium"/>
+
+        <Button
+            android:id="@+id/signuppage"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="25dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="SIGN UP"
+            android:textColor="@color/primary"
+            android:textSize="17dp"
+            app:cornerRadius="10dp"
+            app:strokeColor="@color/primary"
+            app:strokeWidth="2dp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

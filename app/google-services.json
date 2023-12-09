@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "776374170974",
+    "project_id": "paidtask-6f4e9",
+    "storage_bucket": "paidtask-6f4e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776374170974:android:df26200bf844f7a7e9cbcf",
+        "android_client_info": {
+          "package_name": "com.example.paidtask"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtjLs8wQvdAB5awCqcFJInURaEPiLXoko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Withdraw Details"
+        android:layout_margin="25dp"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="1 Rupee = 275 Points"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginRight="25dp"
+           android:layout_marginLeft="25dp"
+           android:layout_marginTop="20dp">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/darkgrey"
+               android:fontFamily="@font/montserrat_medium"
+               android:text="Amount in Rupees:"/>
+           <TextView
+               android:id="@+id/rupees"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="50.78 PKR"
+               android:fontFamily="@font/montserrat_medium"
+               android:textAlignment="textEnd"
+               android:textStyle="bold"/>
+           </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/darkgrey"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Transfer to:"/>
+            <TextView
+                android:id="@+id/details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Easypaisa\n03027971169\nDaniyal Hassan"
+                android:textAlignment="textEnd"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/confirm_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONFIRM"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat_medium"
+            app:cornerRadius="10dp"
+            android:layout_gravity="end"
+            android:backgroundTint="@color/primary"
+            android:layout_margin="25dp"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>
